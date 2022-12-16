@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(2,0,36);
+}
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hiddin{
+    color: brown;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.hiddin:active{
+    color: blue;
+}
+
+.hiddin:hover{
+    color: chartreuse;
+}
